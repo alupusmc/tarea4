@@ -1,26 +1,12 @@
-#Ctxt, #Btxt, #Atxt {
+#Ctxt, #Btxt, #Atxt {  
   height: 100px;
   width: 160px;
   display: Block;
 }
 
-.container {
-  max-width: none;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  position: absolute;
-  width: 100%;
-}
 
-#main_one {
-  width: 100%;
-}
-
-#center {
+#center {  
   background-color: white;
   width: 100%;
   height: 350px;
@@ -29,28 +15,12 @@ body {
   margin-left: 0;
 }
 
-.row {
+.row {  
   margin-right: 0;
 }
 
-#top {
-  width: 100%;
-  height: 200px;
-  left: 0;
-  padding: 0;
-  margin-left: 0;
-}
 
-#bottom {
-  background-color: whitesmoke;
-  width: 100%;
-  height: 250px;
-  left: 0;
-  padding: 0;
-  margin-left: 0;
-}
-
-.images {
+.images {  
   width: 130px;
   height: 90px;
   position: absolute;
@@ -58,62 +28,40 @@ body {
   background-position: -30px -5px;
 }
 
-.colu {
+.colu {  
   width: 160px;
   height: 50px;
 }
 
-#colA {
+#colA {  
   margin-top: 20px;
 }
 
-#Aimg {
+#Aimg {  
   background-image: url(../images/imgA.jpg);
   background-position: -30px -30px;
   display: Block;
 }
 
-#Bimg {
+#Bimg {  
   background-image: url(../images/imgB.jpg);
   display: Block;
 }
 
-#Cimg {
+#Cimg {  
   background-image: url(../images/imgC.jpg);
   display: Block;
 }
 
-.Dimg {
-  background-image: url(../images/imgD.jpg);
-  display: Block;
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  background-repeat: repeat;
-  background-position: -200px -230px;
-}
 
-#Eimg {
-  left: 20px;
-  background-image: url(../images/imgE.jpg);
-  display: Block;
-  width: 140px;
-  height: 200px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: -50px -5px;
-  margin-top: 25px;
-  margin-left: 0;
-}
-
-.core {
+.core {   
   text-align: left;
   color: black;
   font-size: 9px;
   font-family: sans-serif;
 }
 
-.title1 {
+.title1 {  
   text-align: center;
   color: black;
   font-size: 11px;
@@ -121,116 +69,47 @@ body {
   font-weight: bold;
 }
 
-.title3 {
-  text-align: left;
-  color: black;
-  font-size: 11px;
-  font-family: cursive;
-  font-weight: bold;
-}
 
-.title4 {
-  text-align: center;
-  color: black;
-  font-size: 13px;
-  font-family: cursive;
-  font-weight: bold;
-}
 
-.centerTxt {
+.centerTxt {  
   margin-top: 0;
   margin-left: 150px;
 }
 
-#Etxt {
-  margin-left: 20px;
-  width: 310px;
-  height: 200px;
-  margin-top: 25px;
-}
-
-#Dtxt {
-  height: 100px;
-  width: 300px;
-  top: 20px;
-  position: relative;
-}
-
-#titleTop {
-  text-align: center;
-  color: darkslateblue;
-  font-size: 12px;
-  font-family: sans-serif;
-  font-weight: bolder;
-}
-
-#coreTop {
-  text-align: center;
-  color: darkslateblue;
-  font-size: 10px;
-  font-family: sans-serif;
-  font-weight: bold;
-}
 
 @media screen and (min-width: 577px) and (max-width: 767.98px) {
-  #Etxt {
-    margin-left: 20px;
-  }
+ 
 
-  #main_one {
-    width: 100% px;
-  }
-
-  #Dtxt {
-    height: 100px;
-    width: 300px;
-    margin-left: 20%;
-    margin-top: 30px;
-    display: Block;
-  }
-
-  .centerTxt {
+  .centerTxt {  
     margin-top: 60px;
     margin-left: 0;
   }
 
-  .images {
+  .images {  
     height: 50px;
   }
 
-  #colC {
+  #colC {  
     margin-top: 0;
     margin-left: 33%;
   }
 
-  .colu {
+  .colu {  
     height: 120px;
     margin-top: 15px;
   }
 
-  #colA {
+  #colA {  
     margin-left: 10%;
     margin-top: 15px;
   }
 
-  #Eimg {
-    margin-left: 10%;
-  }
+  
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    position: absolute;
-    width: 100%;
-  }
+  
 
-  #main_one {
-    width: 100%;
-  }
-
-  #center {
+  #center {  
     background-color: white;
     width: 100%;
     height: 350px;
@@ -239,28 +118,13 @@ body {
     margin-left: 0;
   }
 
-  .row {
+  .row {  
     margin-right: 0;
   }
 
-  #top {
-    width: 100%;
-    height: 200px;
-    left: 0;
-    padding: 0;
-    margin-left: 0;
-  }
+  
 
-  #bottom {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 250px;
-    left: 0;
-    padding: 0;
-    margin-left: 0;
-  }
-
-  .images {
+  .images {  
     width: 160px;
     height: 180px;
     position: absolute;
@@ -268,88 +132,67 @@ body {
     background-position: 0 0;
   }
 
-  .colu {
+  .colu {  
     width: 160px;
     height: 180px;
   }
 
-  #colA {
+  #colA {  
     margin-top: 20px;
   }
 
-  #colB {
+  #colB {  
     margin-top: 20px;
   }
 
-  #colC {
+  #colC {  
     margin-top: 20px;
   }
 
-  #Aimg {
+  #Aimg {  
     background-image: url(../images/imgA.jpg);
     background-position: -7px -6px;
     display: Block;
   }
 
-  #Bimg {
+  #Bimg {  
     background-image: url(../images/imgB.jpg);
     display: Block;
   }
 
-  #Cimg {
+  #Cimg {  
     background-image: url(../images/imgC.jpg);
     display: Block;
   }
 
-  .Dimg {
-    background-image: url(../images/imgD.jpg);
-    display: Block;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    background-repeat: repeat;
-    background-position: -200px -230px;
-  }
+  
 
-  #Eimg {
-    left: 20px;
-    background-image: url(../images/imgE.jpg);
-    display: Block;
-    width: 180px;
-    height: 200px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    margin-top: 25px;
-    margin-left: 10%;
-  }
-
-  #Atxt {
+  #Atxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  #Btxt {
+  #Btxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  #Ctxt {
+  #Ctxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  .core {
+  .core {   
     text-align: left;
     color: black;
     font-size: 10px;
     font-family: sans-serif;
   }
 
-  .title1 {
+  .title1 {  
     text-align: center;
     color: black;
     font-size: 12px;
@@ -357,71 +200,18 @@ body {
     font-weight: bold;
   }
 
-  .title3 {
-    text-align: left;
-    color: black;
-    font-size: 13px;
-    font-family: cursive;
-    font-weight: bold;
-  }
 
-  .title4 {
-    text-align: center;
-    color: black;
-    font-size: 18px;
-    font-family: cursive;
-    font-weight: bold;
-  }
 
-  .centerTxt {
+  .centerTxt {  
     margin-top: 200px;
     margin-left: 0;
   }
 
-  #Etxt {
-    margin-left: 0;
-    width: 310px;
-    height: 200px;
-    margin-top: 25px;
-  }
-
-  #Dtxt {
-    height: 100px;
-    width: 300px;
-    margin-left: 26%;
-    display: Block;
-  }
-
-  #titleTop {
-    text-align: center;
-    color: darkslateblue;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: bolder;
-  }
-
-  #coreTop {
-    text-align: center;
-    color: darkslateblue;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
 }
 @media screen and (min-width: 991.98px) {
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    position: absolute;
-    width: 100%;
-  }
 
-  #main_one {
-    width: 100%;
-  }
 
-  #center {
+  #center {  
     background-color: white;
     width: 100%;
     height: 350px;
@@ -430,28 +220,12 @@ body {
     margin-left: 0;
   }
 
-  .row {
+  .row {   
     margin-right: 0;
   }
 
-  #top {
-    width: 100%;
-    height: 200px;
-    left: 0;
-    padding: 0;
-    margin-left: 0;
-  }
 
-  #bottom {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 250px;
-    left: 0;
-    padding: 0;
-    margin-left: 0;
-  }
-
-  .images {
+  .images {  
     width: 160px;
     height: 180px;
     position: absolute;
@@ -459,89 +233,68 @@ body {
     background-position: 0 0;
   }
 
-  .colu {
+  .colu {  
     width: 160px;
     height: 180px;
   }
 
-  #colA {
+  #colA {  
     margin-left: 15%;
     margin-top: 20px;
   }
 
-  #colB {
+  #colB {  
     margin-top: 20px;
   }
 
-  #colC {
+  #colC {  
     margin-top: 20px;
   }
 
-  #Aimg {
+  #Aimg {  
     background-image: url(../images/imgA.jpg);
     background-position: -7px -6px;
     display: Block;
   }
 
-  #Bimg {
+  #Bimg {  
     background-image: url(../images/imgB.jpg);
     display: Block;
   }
 
-  #Cimg {
+  #Cimg {  
     background-image: url(../images/imgC.jpg);
     display: Block;
   }
 
-  .Dimg {
-    background-image: url(../images/imgD.jpg);
-    display: Block;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    background-repeat: repeat;
-    background-position: -200px -230px;
-  }
+ 
 
-  #Eimg {
-    left: 20 px;
-    background-image: url(../images/imgE.jpg);
-    display: Block;
-    width: 180px;
-    height: 200px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    margin-top: 25px;
-    margin-left: 10%;
-  }
-
-  #Atxt {
+  #Atxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  #Btxt {
+  #Btxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  #Ctxt {
+  #Ctxt {  
     height: 100px;
     width: 160px;
     display: Block;
   }
 
-  .core {
+  .core {   
     text-align: left;
     color: black;
     font-size: 10px;
     font-family: sans-serif;
   }
 
-  .title1 {
+  .title1 {  
     text-align: center;
     color: black;
     font-size: 12px;
@@ -549,54 +302,14 @@ body {
     font-weight: bold;
   }
 
-  .title3 {
-    text-align: left;
-    color: black;
-    font-size: 13px;
-    font-family: cursive;
-    font-weight: bold;
-  }
 
-  .title4 {
-    text-align: center;
-    color: black;
-    font-size: 18px;
-    font-family: cursive;
-    font-weight: bold;
-  }
 
-  .centerTxt {
+  .centerTxt {  
     margin-top: 200px;
     margin-left: 0;
   }
 
-  #Etxt {
-    margin-left: 0;
-    width: 310px;
-    height: 200px;
-    margin-top: 25px;
-  }
-
-  #Dtxt {
-    height: 100px;
-    width: 500px;
-    margin-left: 34%;
-    display: Block;
-  }
-
-  #titleTop {
-    text-align: center;
-    color: darkslateblue;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: bolder;
-  }
-
-  #coreTop {
-    text-align: center;
-    color: darkslateblue;
-    font-size: 12px;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
+ 
 }
+
+
