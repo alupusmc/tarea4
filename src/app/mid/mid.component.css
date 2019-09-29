@@ -38,18 +38,18 @@
 }
 
 #Aimg {  
-  background-image: url(../images/imgA.jpg);
+  background-image: url(../../assets/img/imgA.jpg);
   background-position: -30px -30px;
   display: Block;
 }
 
 #Bimg {  
-  background-image: url(../images/imgB.jpg);
+  background-image: url(../../assets/img/imgB.jpg);
   display: Block;
 }
 
 #Cimg {  
-  background-image: url(../images/imgC.jpg);
+  background-image: url(../../assets/img/imgC.jpg);
   display: Block;
 }
 
@@ -150,18 +150,18 @@
   }
 
   #Aimg {  
-    background-image: url(../images/imgA.jpg);
+    background-image: url(../../assets/img/imgA.jpg);
     background-position: -7px -6px;
     display: Block;
   }
 
   #Bimg {  
-    background-image: url(../images/imgB.jpg);
+    background-image: url(../../assets/img/imgB.jpg);
     display: Block;
   }
 
   #Cimg {  
-    background-image: url(../images/imgC.jpg);
+    background-image: url(../../assets/img/imgC.jpg);
     display: Block;
   }
 
@@ -252,18 +252,18 @@
   }
 
   #Aimg {  
-    background-image: url(../images/imgA.jpg);
+    background-image: url(../../assets/img/imgA.jpg);
     background-position: -7px -6px;
     display: Block;
   }
 
   #Bimg {  
-    background-image: url(../images/imgB.jpg);
+    background-image: url(../../assets/img/imgB.jpg);
     display: Block;
   }
 
   #Cimg {  
-    background-image: url(../images/imgC.jpg);
+    background-image: url(../../assets/img/imgC.jpg);
     display: Block;
   }
 

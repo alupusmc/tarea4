@@ -15,7 +15,7 @@
 
 #Eimg {  
   left: 20px;
-  background-image: url('../../imag/imgE.jpg');
+  background-image: url('../../assets/img/imgE.jpg');
   display: Block;
   width: 140px;
   height: 200px;
@@ -86,7 +86,7 @@
 
   #Eimg {  
     left: 20px;
-    background-image: url(../images/imgE.jpg);
+    background-image: url(../../assets/img/imgE.jpg);
     display: Block;
     width: 180px;
     height: 200px;
@@ -153,8 +153,8 @@
 
 
   #Eimg {  
-    left: 20 px;
-    background-image: url(../images/imgE.jpg);
+    left: 20px;
+    background-image: url(../../assets/img/imgE.jpg);
     display: Block;
     width: 180px;
     height: 200px;

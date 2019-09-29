@@ -9,7 +9,7 @@
 
 
 .Dimg { 
-  background-image: url(../images/imgD.jpg);
+  background-image: url(../../assets/img/imgD.jpg);
   display: Block;
   width: 100%;
   height: 200px;
@@ -69,7 +69,7 @@
   }
 
   .Dimg { 
-    background-image: url(../images/imgD.jpg);
+    background-image: url(../../assets/img/imgD.jpg);
     display: Block;
     width: 100%;
     height: 200px;
@@ -116,7 +116,7 @@
   }
 
   .Dimg { 
-    background-image: url(../images/imgD.jpg);
+    background-image: url(../../assets/img/imgD.jpg);
     display: Block;
     width: 100%;
     height: 200px;
